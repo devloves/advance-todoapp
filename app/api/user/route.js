@@ -3,10 +3,6 @@ import { NextResponse } from "next/server";
 
 const prisma = new PrismaClient();
 
-export const GET = async (req, res) => {
-  // Handle GET requests (if needed)
-};
-
 export const POST = async (req, res) => {
   const body = await req.json();
 
